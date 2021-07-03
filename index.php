@@ -9,8 +9,12 @@
 <body>
     <?php
         $title = "Hello World this is my PHP website!";
+        $header = "This is where I'll practice all the cool PHP things.";
+        $header2 = "I can't wait to use PHP to develop a fullstack site!";
     ?>
     <h1><?php echo $title; ?></h1>
+    <h2><?php echo $header; ?></h2>
+    <h3><?php echo $header2; ?></h3>
     <?php
         if (5 < 10) {
             echo "I'm so excited to finally be learning PHP.";
