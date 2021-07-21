@@ -27,8 +27,14 @@
                 echo $message;
             }
 
+            function thankYou($message) {
+                echo "<br/>";
+                echo $message;
+            }
+
             greeting("Hello student!");
             greeting("Yes, very much!");
+            thankYou("Thank you for teaching me PHP!");
         ?>
     </body>
 </html>
