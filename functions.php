@@ -21,6 +21,13 @@
                 echo "Hello Student, do you like the class?";
             }
 
+            //parameters
+            function greeting($message) {
+                echo $message;
+            }
+
+            greeting("Hello student!");
+
         ?>
     </body>
 </html>
