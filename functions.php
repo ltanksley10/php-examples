@@ -35,6 +35,15 @@
             greeting("Hello student!");
             greeting("Yes, very much!");
             thankYou("Thank you for teaching me PHP!");
+
+            echo "<br/>";
+
+            function calculateMe($number1, $number2) {
+                $sum = $number1 + $number2;
+                echo $sum;
+            }
+
+            calculateMe(12, 24);
         ?>
     </body>
 </html>
