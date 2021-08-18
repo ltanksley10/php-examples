@@ -1,7 +1,11 @@
 <?php
     //create a super global
     if (isset($_POST['submit'])) {
-        echo "yes it works!";
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        echo "Hello " . $username . " ";
+        echo "your password is " . $password;
     }
 ?>
 
@@ -13,8 +17,8 @@
     </head>
     <body>
         <form action="formsubmissions.php" method="post">
-            <input type="text" placeholder="Enter Username">
-            <input type="password" placeholder="Enter Password">
+            <input type="text" name="username" placeholder="Enter Username">
+            <input type="password" name="password" placeholder="Enter Password">
             <input type="submit" name="submit">
         </form>
 
